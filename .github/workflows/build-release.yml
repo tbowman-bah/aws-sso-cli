@@ -4,7 +4,7 @@
 name: Release Binaries
 
 on:
-  # Workflow executes when a new release is created
+  workflow_dispatch:
   release:
     types: [created]
 
